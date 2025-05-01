@@ -37,14 +37,31 @@ body	{
 		background-repeat: no-repeat;}
 
 	h2{ 
-		font-size: 8em;
 		color:#000000;
-		font-family: "nexa-rust-sans-black-2", sans-serif;
 		font-weight: 900;
 		font-style: normal;
-		padding-left: 275px;
-		padding-top:-550px;
-		background-repeat: no-repeat;}
+		padding-top:-600px;
+		background-repeat: no-repeat;
+		font-size: 2.5em;
+		font-family: "nexa-rust-sans-black-2", sans-serif;
+		text-align: center;
+		font-color: #ff8700;}
+
+	h4{
+		font-size:1.5em;
+		padding-top: 50px;
+		padding-left: 40px;
+		line-height: 40px;
+	}
+
+	p{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+	}
 
 	nav{
 		color:#000000;
@@ -63,10 +80,10 @@ body	{
 	}
 	
 	li{
-		float:right;
 		list-style-type: none;
-		padding-right: 40px;
-		
+		padding-left: 40px;
+		line-height: 40px;
+			
 	}
 		
 	a:link{
@@ -75,19 +92,20 @@ body	{
 		color:#000000;
 		text-decoration: none;
 	}
+
 	a:visited{
 		font-family: "nexa-rust-sans-black-2", sans-serif;
 		font-size: 20px;
 		color: #000000;
 		text-decoration: none;
 	}
+
 	a:hover{
 		font-family: "nexa-rust-sans-black-2", sans-serif;
 		font-size: 20px;
 		color: #ff8700;
 		background-color: #000000;
 	}
-	
 	
 	a:active{
 		font-family: "nexa-rust-sans-black-2", sans-serif;
@@ -96,7 +114,7 @@ body	{
 		text-decoration: none;
 	}
 
-	
+
 	footer{
 	clear:both;
 	width:100%;
